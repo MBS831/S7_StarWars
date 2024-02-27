@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         </ul>
       </div>
       <div className="Logo mb-20 flex justify-center">
-        <img className="h-20 w-40" src={logoImage} alt="Logo" />
+        <img className="h-20 w-40" src={logoImage} alt="Logo" style={{ marginLeft: "70px"}} />
       </div>
       <div className="registration me-10 flex">
         {isLoggedIn ? (
