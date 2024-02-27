@@ -22,11 +22,7 @@ const Home: React.FC = () => {
       </div>
       <div className="flex justify-center">
 
-        <Link to="/home">
-          <button className="bg-black rounded-md text-white p-3 font-bold text-lg mb-10 ring-1 ring-black hover:bg-white hover:text-black">
-            Home
-          </button>
-        </Link>
+       
         <Link to="/starships">
           <button className="bg-black rounded-md text-white p-3 font-bold text-lg mb-10 ring-1 ring-black hover:bg-white hover:text-black">
             Explore the Galaxy
